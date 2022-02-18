@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "cf-disable-netlify-builds",
+  "version": "1.0.0",
+  "description": "A CloudFlare Worker that disables Netlify Builds on a given Site ID",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Collin Bachman <collin@bachman.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

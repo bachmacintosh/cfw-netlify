@@ -1,0 +1,13 @@
+name = "cf-disable-netlify-builds"
+type = "javascript"
+
+account_id = "a1d46f5c53a37a75f82cd8e320855c37"
+workers_dev = true
+compatibility_date = "2022-02-18"
+
+[triggers]
+crons = ["45 12 * * 2"]
+
+# [secrets]
+# NETLIFY_SITE_ID
+# NETLIFY_ACCESS_TOKEN
